@@ -1,4 +1,4 @@
-## ❤️ Rocks Spam Bot ❤️
+## ❤️ RedxPs Spam Bot 💫
 
 Telethon Based Powerful Telegram Spamming Userbot 😁😁😁
 
