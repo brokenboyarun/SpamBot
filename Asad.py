@@ -1,5 +1,5 @@
-# Rocks Project By Asad Ali & Harshit Sharma
-# © Rocks 2021
+# Final Strike Project By Arun Op & Red x Ps
+# © RedxPs 2022
 #  A Powerful Telegram Spam Bot Based On Pyrogram
 
 
@@ -378,7 +378,7 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "Joining..."
+            text = "𝗝𝗢𝗜𝗡𝗜𝗡𝗚"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
@@ -760,7 +760,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"💫 Pong!\n`{ms}` ms")
 
 
 # Rocks Project By Asad Ali & Harshit Sharma
@@ -850,9 +850,9 @@ async def help(e):
         
 text = """
 ░▄▀▀▀▀▄░░▄▄1�7
-█░R░░O░▀▀░░█░░░░░░▄░▄1�7
+█░A░░░R▀▀░░█░░░░░░▄░▄1�7
 █░║░░░░██░████████████1�7
-█░K░░S░▄▄░░█░░░░░░▀░▀1�7
+█░U░░N░▄▄░░█░░░░░░▀░▀1�7
 ░▀▄▄▄▄▀░░▀▀"""
 
 print(text)
